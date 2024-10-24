@@ -1,0 +1,28 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "shift_x": 88,
+    "shift_y": -29,
+    "version": 562949953945601,
+    "entities": [
+      {"name": "small-electric-pole", "position": {"x": -6.5, "y": -0.5}},
+      {"name": "small-electric-pole", "position": {"x": -3.5, "y": -0.5}},
+      {"name": "small-electric-pole", "position": {"x": 0.5, "y": -0.5}},
+      {"name": "small-electric-pole", "position": {"x": -4.5, "y": 4.5}},
+      {"name": "small-electric-pole", "position": {"x": -4.5, "y": 9.5}},
+      {"name": "small-electric-pole", "position": {"x": 0.5, "y": 3.5}},
+      {"name": "small-electric-pole", "position": {"x": 0.5, "y": 9.5}}
+    ],
+    "icons": [{"index": 1, "signal": {"name": "small-electric-pole"}}],
+    "wires": [
+      ["0,0", "7,4", "7,0", "7,4"],
+      ["0,0", "7,4", "2,5", "7,4"],
+      ["3,0", "7,4", "2,5", "7,4"],
+      ["3,0", "7,4", "7,4", "7,4"],
+      ["7,0", "7,4", "7,4", "7,4"],
+      ["2,5", "7,4", "2,10", "7,4"],
+      ["2,5", "7,4", "7,10", "7,4"],
+      ["7,4", "7,4", "7,10", "7,4"]
+    ]
+  }
+}
